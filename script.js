@@ -17,6 +17,6 @@ function generateQR() {
         qrText.classList.add("error");
         setTimeout( () => {  
             qrText.classList.remove("error");
-            }, 300);
+            }, 500);
         }
 }
