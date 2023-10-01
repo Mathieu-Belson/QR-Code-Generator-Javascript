@@ -67,7 +67,7 @@ body {
     width: 200px;
     border-radius: 5px;
     max-height: 0;
-    overflow: hidden; /* this is for hiding the image box */
+    overflow: hidden; /* this is for hiding the image box when the page loads */
     transition: max-height 1s;
 }
 
@@ -83,7 +83,7 @@ body {
 }
 
 .error {
-    animation: shake 0.1s linear 10;
+    animation: shake 0.1s linear 10; /* this is for shaking the form when the user enters wrong input */
 }
 
 @keyframes shake {
